@@ -1,6 +1,6 @@
 # Agent LangChain Getting Started
 
-学校 Agent LangChain 课程的第一个入门项目，包含 LangChain 基础概念、模型调用、消息、提示词、工具和记忆等 Jupyter Notebook 示例。
+学习 Agent LangChain 课程的第一个入门项目，包含 LangChain 基础概念、模型调用、消息、提示词、工具和记忆等 Jupyter Notebook 示例。
 
 ## 本地运行
 
