@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets and IDE settings
+.env
+.idea/
+
+# Notebook runtime data
+*.db
+*.db-shm
+*.db-wal

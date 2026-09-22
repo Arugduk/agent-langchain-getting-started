@@ -1,0 +1,25 @@
+[project]
+name = "langchainlearning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dashscope>=1.27.6",
+    "langchain>=1.4.1",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.2",
+    "langchain-tavily>=0.2.18",
+    "langgraph-checkpoint-postgres>=3.1.2",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "notebook>=7.6.2",
+    "openai>=3.14.1",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+langchainlearning = "langchainlearning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
